@@ -17,35 +17,36 @@
 
 
     <!-- bootstrap core css -->
-    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css" />
     <!-- progress barstle -->
-    <link rel="stylesheet" href="/assets/css/css-circular-prog-bar.css">
+    <link rel="stylesheet" href="assets/css/css-circular-prog-bar.css">
     <!-- fonts style -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
     <!-- font wesome stylesheet -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/assets/fontawesome-free-6.7.2-web/css/all.min.css">
+    <link rel="stylesheet" href="assets/fontawesome-free-6.7.2-web/css/all.min.css">
     <!-- Custom styles for this template -->
-    <link href="/assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
     <!-- responsive style -->
-    <link href="/assets/css/responsive.css" rel="stylesheet" />
+    <link href="assets/css/responsive.css" rel="stylesheet" />
 
 
 
 
-    <link rel="stylesheet" href="/assets/css/css-circular-prog-bar.css">
+    <link rel="stylesheet" href="assets/css/css-circular-prog-bar.css">
 
 
 </head>
 
 <body>
-    <div class="top_container sub_pages">
-        <!-- header section strats -->
-        <header class="header header_section fixed-top">
+    <div class="top_container sub-page">
+
+          <!-- header section strats -->
+          <header class="header header_section fixed-top">
             <div class="container">
                 <nav class="navbar navbar-expand-lg custom_nav-container ">
                     <a class="navbar-brand" href="index.html">
-                        <img src="/assets/images/mainArtboard 1.png" alt="">
+                        <img src="assets/images/mainArtboard 1.png" alt="">
 
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -61,20 +62,20 @@
                         <a class="nav-link" href="index.html"> Home <span class="sr-only">(current)</span></a>
                       </li> -->
                                 <li class="nav-item ">
-                                    <a class="nav-link" href="index.html"> Home </a>
+                                    <a class="nav-link cool-link" href="index.html"> Home </a>
                                 </li>
                                 <li class="nav-item ">
-                                    <a class="nav-link" href="about.html"> About </a>
+                                    <a class="nav-link cool-link" href="about.html"> About </a>
                                 </li>
 
                                 <li class="nav-item ">
-                                    <a class="nav-link" href="plans.html"> Plans </a>
+                                    <a class="nav-link cool-link" href="plans.html"> Plans </a>
                                 </li>
 
 
 
                                 <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
+                                    <a class="nav-link cool-link" href="contact.html">Contact</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="login.html"> <button class="btn-login"> Login </button>
@@ -94,7 +95,7 @@
         <section class="teacher_section layout_padding">
 
             <div class="container">
-                <h2 class="text-center cl-light"><i class="fa-solid fa-tags"></i> </h2>
+              
                 <h2 class="main-heading-head ">
                     Our Plans
                 </h2>
@@ -103,146 +104,98 @@
         </section>
 
         <!-- plans section -->
+        <div class="overlay"></div>
     </div>
 
-
-    <div>
-        <p class="text-center ">
+<div class="plans">
+    <div class="container ">
+        <h2 class="main-heading"> Choose Your Plan</h2>
+        <p class="text-center sub-heading mb-40">
             Provide parents and school staff with a dependable communication tool they can trust.
         </p>
-        <div class="tab">
-            <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
-            <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-            <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
-        </div>
 
 
-        <div id="London" class="tabcontent">
-            <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+
+         <div>
             <div class="card-deck row mt-4">
                 <div class="col-lg-4">
-                    <div class="card ">
+                    <div class="card text-center">
 
-                        <img class="card-img-top" src="/assets/images/wakitaki.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title">Starter</h4>
-                            <p>Rs 2999</p>
-                            <button class="btn-black">Contact us</button>
+                        <img class="card-img-top" src="assets/images/frame1.png" alt="Card image cap">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div>
+                                <h4 class="card-title">Starter</h4>
+                                <p>Rs 2999 <span class="min">/Year </span></p>
+                                <p>1 years</p>
+                                <p>500 students</p>
+                                <p> <span > </span> Text message sending</p>
+                                <p><span > </span>Email sending</p>
+                            </div>
+                            <div>
+                                
+                            <button class="btn-plan">Choose Plan</button>
+                                
+                            </div>
+                           
+                           
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="card">
+                    <div class="card  text-center bg-main">
 
-                        <img class="card-img-top" src="/assets/images/smart phone.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title">Standard</h4>
-                            <p>Rs 4999</p>
-                            <button class="btn-black">Contact us</button>
+                        <img class="card-img-top" src="assets/images/frame2.png" alt="Card image cap">
+                        <div class="card-body  d-flex flex-column justify-content-between">
+                            <div>
+                                <h4 class="card-title">Standard</h4>
+                                <p>Rs 4999 <span class="min">/Year </span></p>
+                                <p>2 years</p>
+                                <p>1000 students</p>
+                                <p>  </span> Text message sending</p>
+                                <p> </span>Email sending</p>
+                                <p> </span>WhatsApp msg sending</p>
+                               
+                            </div>
+                            
+                            
+                            <button class="btn-plan">Choose Plan</button>
                         </div>
 
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="card">
+                    <div class="card text-center">
 
-                        <img class="card-img-top" src="/assets/images/rb_2193.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title">Advanced</h4>
-                            <p>Rs 9999</p>
-                            <a href="plans"></a> <button class="btn-black">Contact us</button>
+                        <img class="card-img-top" src="assets/images/frame3.png" alt="Card image cap">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div>
+                                <h4 class="card-title">Advanced</h4>
+                                <p>Rs 9999<span class="min">/Year </span> </p>
+                                <p>5 years</p>
+                                <p> </span> Unlimited students</p>
+                                <p>  </span> Text message sending</p>
+                                <p> </span> Email sending</p>
+                                <p> </span> WhatsApp msg sending</p>
+                                <p> </span> Phone calling</p>
+                            </div>
+                           
+                            <a href="plans"></a> <button class="btn-plan">Choose Plan</button>
 
                         </div>
 
                     </div>
                 </div>
             </div>
-        </div>
+         </div>
 
-        <div id="Paris" class="tabcontent">
-            <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
-            <div class="card-deck row mt-4">
-                <div class="col-lg-4">
-                    <div class="card ">
 
-                        <img class="card-img-top" src="/assets/images/wakitaki.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title">Starter</h4>
-                            <p>Rs 12999</p>
-                            <button class="btn-black">Contact us</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card">
 
-                        <img class="card-img-top" src="/assets/images/smart phone.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title">Standard</h4>
-                            <p>Rs 14999</p>
-                            <button class="btn-black">Contact us</button>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card">
-
-                        <img class="card-img-top" src="/assets/images/rb_2193.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title">Advanced</h4>
-                            <p>Rs 19999</p>
-                            <a href="plans"></a> <button class="btn-black">Contact us</button>
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="Tokyo" class="tabcontent">
-            <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
-            <div class="card-deck row mt-4">
-                <div class="col-lg-4">
-                    <div class="card ">
-
-                        <img class="card-img-top" src="/assets/images/wakitaki.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title">Starter</h4>
-                            <p>Rs 32999</p>
-                            <button class="btn-black">Contact us</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card">
-
-                        <img class="card-img-top" src="/assets/images/smart phone.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title">Standard</h4>
-                            <p>Rs 34999</p>
-                            <button class="btn-black">Contact us</button>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="card">
-
-                        <img class="card-img-top" src="/assets/images/rb_2193.png" alt="Card image cap">
-                        <div class="card-body">
-                            <h4 class="card-title">Advanced</h4>
-                            <p>Rs 39999</p>
-                            <a href="plans"></a> <button class="btn-black">Contact us</button>
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
+      
+     
+         
     </div>
+</div>
+  
     <!-- end header section -->
 
 
@@ -256,6 +209,26 @@
 
 
     <!-- footer section -->
+    <section class="footer">
+        <div class="container">
+          <div class="text-center footer-social">
+            <span class="round"><i class="fa-brands fa-facebook-f"></i></span>
+            <span class="round"><i class="fa-brands fa-square-instagram"></i></span>
+            <span class="round"><i class="fa-brands fa-linkedin-in"></i></span>
+          </div>
+          <div class="text-center links-footer">
+            <a class="cool-link" href="index.html">Home</a>
+            <a class="cool-link" href="about.html">About</a>
+            <!-- <a class="cool-link" href="plans.html">Plans</a> -->
+            <a class="cool-link" href="contact.html">Contact</a>
+            <a class="cool-link" href="login.html">Login</a>
+            <a class="cool-link" href="">Download App</a>
+            <a class="cool-link" href="privacypolicy.html">Privacy Policy</a>
+            <a class="cool-link" href="terms.html">Terms & Conditions</a>
+    
+          </div>
+        </div>
+      </section>
     <section class="container-fluid footer_section">
         <p>
             Copyright &copy; 2019 All Rights Reserved By
@@ -264,8 +237,8 @@
     </section>
     <!-- footer section -->
 
-    <script type="text/javascript" src="/assets/js/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript" src="/assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
 
     <script>
         // This example adds a marker to indicate the position of Bondi Beach in Sydney,
@@ -279,7 +252,7 @@
                 },
             });
 
-            var image = '/assets/images/maps-and-flags.png';
+            var image = 'assets/images/maps-and-flags.png';
             var beachMarker = new google.maps.Marker({
                 position: {
                     lat: 40.645037,
@@ -299,8 +272,8 @@
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap">
     </script>
-    <script src="/assets/js/index.js"></script>
-    <script src="/assets/fontawesome-free-6.7.2-web/js/all.min.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script src="assets/fontawesome-free-6.7.2-web/js/all.min.js"></script>
     <!-- end google map js -->
 </body>
 

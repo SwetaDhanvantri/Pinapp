@@ -1,7 +1,8 @@
 $(window).on("scroll", function() {
     if($(window).scrollTop() > 50) {
         $(".header").addClass("darkbg");
-    } else {
+    } 
+    else {
         //remove the background property so it comes transparent again (defined in your css)
        $(".header").removeClass("darkbg");
     }
@@ -23,3 +24,8 @@ function openCity(evt, cityName) {
   
   // Get the element with id="defaultOpen" and click on it
   document.getElementById("defaultOpen").click();
+
+
+
+
+  
